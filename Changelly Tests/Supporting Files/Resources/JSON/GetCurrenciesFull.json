@@ -1,0 +1,1356 @@
+{
+    "jsonrpc": "2.0",
+    "id": "F885B2B4-8422-4BB6-A97A-A8D5C1E8B217",
+    "result": [
+               {
+               "name": "btc",
+               "fullName": "Bitcoin",
+               "enabled": true,
+               "payinConfirmations": 2,
+               "extraIdName": null,
+               "addressUrl": "https://www.blockchain.com/btc/address/%1$s",
+               "transactionUrl": "https://www.blockchain.com/btc/tx/%1$s",
+               "image": "https://changelly.com/api/coins/btc.png"
+               },
+               {
+               "name": "eth",
+               "fullName": "Ethereum",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/address/%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/eth.png"
+               },
+               {
+               "name": "etc",
+               "fullName": "Ethereum Classic",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "http://gastracker.io/addr/%1$s",
+               "transactionUrl": "http://gastracker.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/etc.png"
+               },
+               {
+               "name": "exp",
+               "fullName": "Expanse",
+               "enabled": true,
+               "payinConfirmations": 5,
+               "extraIdName": null,
+               "addressUrl": "https://gander.tech/address/%1$s",
+               "transactionUrl": "https://gander.tech/tx/%1$s",
+               "image": "https://changelly.com/api/coins/exp.png"
+               },
+               {
+               "name": "xem",
+               "fullName": "XEM (NEM)",
+               "enabled": true,
+               "payinConfirmations": 10,
+               "extraIdName": "Message",
+               "addressUrl": "http://chain.nem.ninja/#/account/%1$s",
+               "transactionUrl": "http://chain.nem.ninja/#/transfer/%1$s",
+               "image": "https://changelly.com/api/coins/xem.png"
+               },
+               {
+               "name": "lsk",
+               "fullName": "Lisk",
+               "enabled": false,
+               "payinConfirmations": 5,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.lisk.io/address/%1$s",
+               "transactionUrl": "https://explorer.lisk.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/lsk.png"
+               },
+               {
+               "name": "xmr",
+               "fullName": "Monero",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Payment ID",
+               "addressUrl": null,
+               "transactionUrl": "https://xmrchain.net/tx/%1$s",
+               "image": "https://changelly.com/api/coins/xmr.png"
+               },
+               {
+               "name": "game",
+               "fullName": "GameCredits",
+               "enabled": false,
+               "payinConfirmations": 6,
+               "extraIdName": null,
+               "addressUrl": "https://blockexplorer.gamecredits.com/addresses/%1$s",
+               "transactionUrl": "https://blockexplorer.gamecredits.com/transactions/%1$s",
+               "image": "https://changelly.com/api/coins/game.png"
+               },
+               {
+               "name": "steem",
+               "fullName": "Steem",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Memo",
+               "addressUrl": "https://steemd.com/@%1$s",
+               "transactionUrl": "https://steemd.com/tx/%1$s",
+               "image": "https://changelly.com/api/coins/steem.png"
+               },
+               {
+               "name": "golos",
+               "fullName": "Golos",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Memo",
+               "addressUrl": "http://golosd.com/@%1$s",
+               "transactionUrl": "http://golosd.com/tx/%1$s",
+               "image": "https://changelly.com/api/coins/golos.png"
+               },
+               {
+               "name": "sbd",
+               "fullName": "Steem Dollar",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Memo",
+               "addressUrl": "https://steemd.com/@%1$s",
+               "transactionUrl": "https://steemd.com/tx/%1$s",
+               "image": "https://changelly.com/api/coins/sbd.png"
+               },
+               {
+               "name": "zec",
+               "fullName": "Zcash",
+               "enabled": true,
+               "payinConfirmations": 12,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.zcha.in/accounts/%1$s",
+               "transactionUrl": "https://explorer.zcha.in/transactions/%1$s",
+               "image": "https://changelly.com/api/coins/zec.png"
+               },
+               {
+               "name": "nlg",
+               "fullName": "Gulden",
+               "enabled": false,
+               "payinConfirmations": 5,
+               "extraIdName": null,
+               "addressUrl": "https://blockchain.gulden.com/address/%1$s",
+               "transactionUrl": "https://blockchain.gulden.com/tx/%1$s",
+               "image": "https://changelly.com/api/coins/nlg.png"
+               },
+               {
+               "name": "strat",
+               "fullName": "Stratis",
+               "enabled": true,
+               "payinConfirmations": 10,
+               "extraIdName": null,
+               "addressUrl": "https://chainz.cryptoid.info/strat/address.dws?%1$s",
+               "transactionUrl": "https://chainz.cryptoid.info/strat/tx.dws?%1$s",
+               "image": "https://changelly.com/api/coins/strat.png"
+               },
+               {
+               "name": "ardr",
+               "fullName": "Ardor",
+               "enabled": false,
+               "payinConfirmations": 2,
+               "extraIdName": "Message",
+               "addressUrl": "https://nxtportal.org/accounts/%1$s",
+               "transactionUrl": "https://nxtportal.org/transactions/%1$s",
+               "image": "https://changelly.com/api/coins/ardr.png"
+               },
+               {
+               "name": "rep",
+               "fullName": "Augur",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/REP?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/rep.png"
+               },
+               {
+               "name": "lbc",
+               "fullName": "LBRY Credits",
+               "enabled": true,
+               "payinConfirmations": 5,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.lbry.io/#!/address?id=%1$s",
+               "transactionUrl": "https://explorer.lbry.io/#!/transaction?id=%1$s",
+               "image": "https://changelly.com/api/coins/lbc.png"
+               },
+               {
+               "name": "maid",
+               "fullName": "MaidSafeCoin",
+               "enabled": true,
+               "payinConfirmations": 3,
+               "extraIdName": null,
+               "addressUrl": "https://omniexplorer.info/lookupadd.aspx?address=%1$s",
+               "transactionUrl": "https://omniexplorer.info/lookuptx.aspx?txid=%1$s",
+               "image": "https://changelly.com/api/coins/maid.png"
+               },
+               {
+               "name": "fct",
+               "fullName": "Factom",
+               "enabled": false,
+               "payinConfirmations": 5,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.factom.org/address/%1$s",
+               "transactionUrl": "https://explorer.factom.org/tx/%1$s",
+               "image": "https://changelly.com/api/coins/fct.png"
+               },
+               {
+               "name": "ltc",
+               "fullName": "Litecoin",
+               "enabled": true,
+               "payinConfirmations": 2,
+               "extraIdName": null,
+               "addressUrl": "http://explorer.litecoin.net/address/%1$s",
+               "transactionUrl": "http://explorer.litecoin.net/tx/%1$s",
+               "image": "https://changelly.com/api/coins/ltc.png"
+               },
+               {
+               "name": "bcn",
+               "fullName": "Bytecoin",
+               "enabled": false,
+               "payinConfirmations": 100,
+               "extraIdName": "Payment ID",
+               "addressUrl": null,
+               "transactionUrl": "http://chainradar.com/bcn/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/bcn.png"
+               },
+               {
+               "name": "xrp",
+               "fullName": "Ripple",
+               "enabled": true,
+               "payinConfirmations": 2,
+               "extraIdName": "Destination Tag",
+               "addressUrl": "https://ripple.com/build/ripple-info-tool/#%1$s",
+               "transactionUrl": "https://xrpcharts.ripple.com/#/transactions/%1$s",
+               "image": "https://changelly.com/api/coins/xrp.png"
+               },
+               {
+               "name": "doge",
+               "fullName": "Dogecoin",
+               "enabled": true,
+               "payinConfirmations": 3,
+               "extraIdName": null,
+               "addressUrl": "https://dogechain.info/address/%1$s",
+               "transactionUrl": "https://dogechain.info/tx/%1$s",
+               "image": "https://changelly.com/api/coins/doge.png"
+               },
+               {
+               "name": "amp",
+               "fullName": "Synereo",
+               "enabled": true,
+               "payinConfirmations": 3,
+               "extraIdName": null,
+               "addressUrl": "https://omniexplorer.info/lookupadd.aspx?address=%1$s",
+               "transactionUrl": "https://omniexplorer.info/lookuptx.aspx?txid=%1$s",
+               "image": "https://changelly.com/api/coins/amp.png"
+               },
+               {
+               "name": "nxt",
+               "fullName": "Nxt",
+               "enabled": true,
+               "payinConfirmations": 2,
+               "extraIdName": "Message",
+               "addressUrl": "https://nxtportal.org/accounts/%1$s",
+               "transactionUrl": "https://nxtportal.org/transactions/%1$s",
+               "image": "https://changelly.com/api/coins/nxt.png"
+               },
+               {
+               "name": "dash",
+               "fullName": "Dash",
+               "enabled": true,
+               "payinConfirmations": 2,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.dash.org/address/%1$s",
+               "transactionUrl": "https://explorer.dash.org/tx/%1$s",
+               "image": "https://changelly.com/api/coins/dash.png"
+               },
+               {
+               "name": "dsh",
+               "fullName": "Dashcoin",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Payment ID",
+               "addressUrl": null,
+               "transactionUrl": "http://chainradar.com/dsh/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/dsh.png"
+               },
+               {
+               "name": "rads",
+               "fullName": "Radium",
+               "enabled": false,
+               "payinConfirmations": 3,
+               "extraIdName": null,
+               "addressUrl": "https://chainz.cryptoid.info/rads/address.dws?%1$s",
+               "transactionUrl": "https://chainz.cryptoid.info/rads/tx.dws?%1$s",
+               "image": "https://changelly.com/api/coins/rads.png"
+               },
+               {
+               "name": "xdn",
+               "fullName": "DigitalNote",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Payment ID",
+               "addressUrl": null,
+               "transactionUrl": "http://chainradar.com/xdn/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/xdn.png"
+               },
+               {
+               "name": "aeon",
+               "fullName": "AeonCoin",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Payment ID",
+               "addressUrl": null,
+               "transactionUrl": "http://chainradar.com/aeon/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/aeon.png"
+               },
+               {
+               "name": "usnbt",
+               "fullName": "NuBits",
+               "enabled": true,
+               "payinConfirmations": 2,
+               "extraIdName": null,
+               "addressUrl": "https://nuexplorer.ddns.net/address/%1$s/1/newest",
+               "transactionUrl": "https://nuexplorer.ddns.net/transactions/%1$s",
+               "image": "https://changelly.com/api/coins/usnbt.png"
+               },
+               {
+               "name": "fcn",
+               "fullName": "FantomCoin",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Payment ID",
+               "addressUrl": null,
+               "transactionUrl": "http://chainradar.com/fcn/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/fcn.png"
+               },
+               {
+               "name": "qcn",
+               "fullName": "QuazarCoin",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Payment ID",
+               "addressUrl": null,
+               "transactionUrl": "http://chainradar.com/qcn/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/qcn.png"
+               },
+               {
+               "name": "nav",
+               "fullName": "NAV Coin",
+               "enabled": true,
+               "payinConfirmations": 3,
+               "extraIdName": null,
+               "addressUrl": "https://chainz.cryptoid.info/nav/address.dws?%1$s",
+               "transactionUrl": "https://chainz.cryptoid.info/nav/tx.dws?%1$s",
+               "image": "https://changelly.com/api/coins/nav.png"
+               },
+               {
+               "name": "pot",
+               "fullName": "PotCoin",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://chainz.cryptoid.info/pot/address.dws?%1$s",
+               "transactionUrl": "https://chainz.cryptoid.info/pot/tx.dws?%1$s",
+               "image": "https://changelly.com/api/coins/pot.png"
+               },
+               {
+               "name": "gnt",
+               "fullName": "Golem",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Golem?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/gnt.png"
+               },
+               {
+               "name": "waves",
+               "fullName": "Waves",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "http://wavesexplorer.com/address/%1$s",
+               "transactionUrl": "http://wavesexplorer.com/tx/%1$s",
+               "image": "https://changelly.com/api/coins/waves.png"
+               },
+               {
+               "name": "usdt",
+               "fullName": "Tether USD",
+               "enabled": true,
+               "payinConfirmations": 3,
+               "extraIdName": null,
+               "addressUrl": "https://omniexplorer.info/lookupadd.aspx?address=%1$s",
+               "transactionUrl": "https://omniexplorer.info/lookuptx.aspx?txid=%1$s",
+               "image": "https://changelly.com/api/coins/usdt.png"
+               },
+               {
+               "name": "swt",
+               "fullName": "Swarm City",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xb9e7f8568e08d5659f5d29c4997173d84cdf2607?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/swt.png"
+               },
+               {
+               "name": "mln",
+               "fullName": "Melon",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Melon?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/mln.png"
+               },
+               {
+               "name": "dgd",
+               "fullName": "DigixDAO",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/DGD?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/dgd.png"
+               },
+               {
+               "name": "time",
+               "fullName": "Chronobank",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/TIME?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/time.png"
+               },
+               {
+               "name": "sngls",
+               "fullName": "SingularDTV",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/SNGLS?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/sngls.png"
+               },
+               {
+               "name": "xaur",
+               "fullName": "Xaurum",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Xaurum?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/xaur.png"
+               },
+               {
+               "name": "pivx",
+               "fullName": "PIVX",
+               "enabled": false,
+               "payinConfirmations": 2,
+               "extraIdName": null,
+               "addressUrl": "https://chainz.cryptoid.info/pivx/address.dws?%1$s",
+               "transactionUrl": "https://chainz.cryptoid.info/pivx/tx.dws?%1$s",
+               "image": "https://changelly.com/api/coins/pivx.png"
+               },
+               {
+               "name": "gbg",
+               "fullName": "Golos Gold",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Memo",
+               "addressUrl": "https://golosd.com/@%1$s",
+               "transactionUrl": "http://golosd.com/tx/%1$s",
+               "image": "https://changelly.com/api/coins/gbg.png"
+               },
+               {
+               "name": "trst",
+               "fullName": "Trustcoin",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Trustcoin?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/trst.png"
+               },
+               {
+               "name": "edg",
+               "fullName": "Edgeless",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Edgeless?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/edg.png"
+               },
+               {
+               "name": "gbyte",
+               "fullName": "Byteball",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.byteball.org/#%1$s",
+               "transactionUrl": "https://explorer.byteball.org/#%1$s",
+               "image": "https://changelly.com/api/coins/gbyte.png"
+               },
+               {
+               "name": "dar",
+               "fullName": "Darcrus",
+               "enabled": false,
+               "payinConfirmations": 2,
+               "extraIdName": "Message",
+               "addressUrl": "https://nxtportal.org/accounts/%1$s",
+               "transactionUrl": "https://www.mynxt.info/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/dar.png"
+               },
+               {
+               "name": "wings",
+               "fullName": "Wings DAO",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x667088b212ce3d06a1b553a7221E1fD19000d9aF?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/wings.png"
+               },
+               {
+               "name": "rlc",
+               "fullName": "iEx.ec",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/RLC?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/rlc.png"
+               },
+               {
+               "name": "gno",
+               "fullName": "Gnosis",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Gnosis?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/gno.png"
+               },
+               {
+               "name": "dcr",
+               "fullName": "Decred",
+               "enabled": true,
+               "payinConfirmations": 2,
+               "extraIdName": null,
+               "addressUrl": "https://mainnet.decred.org/address/%1$s",
+               "transactionUrl": "https://mainnet.decred.org/tx/%1$s",
+               "image": "https://changelly.com/api/coins/dcr.png"
+               },
+               {
+               "name": "gup",
+               "fullName": "Guppy",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Guppy?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/gup.png"
+               },
+               {
+               "name": "sys",
+               "fullName": "Syscoin",
+               "enabled": true,
+               "payinConfirmations": 10,
+               "extraIdName": null,
+               "addressUrl": "https://chainz.cryptoid.info/sys/address.dws?%1$s",
+               "transactionUrl": "https://chainz.cryptoid.info/sys/tx.dws?%1$s",
+               "image": "https://changelly.com/api/coins/sys.png"
+               },
+               {
+               "name": "lun",
+               "fullName": "Lunyr",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Lunyr?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/lun.png"
+               },
+               {
+               "name": "xlm",
+               "fullName": "Stellar",
+               "enabled": true,
+               "payinConfirmations": 10,
+               "extraIdName": "Memo.id",
+               "addressUrl": "https://stellarchain.io/address/%1$s",
+               "transactionUrl": "https://stellarchain.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/xlm.png"
+               },
+               {
+               "name": "bat",
+               "fullName": "Basic Attention Token",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/BAT?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/bat.png"
+               },
+               {
+               "name": "ant",
+               "fullName": "Aragon",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Aragon?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/ant.png"
+               },
+               {
+               "name": "bnt",
+               "fullName": "Bancor Network Token",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Bancor?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/bnt.png"
+               },
+               {
+               "name": "snt",
+               "fullName": "Status Network Token",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/StatusNetwork?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/snt.png"
+               },
+               {
+               "name": "cvc",
+               "fullName": "Civic",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Civic?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/cvc.png"
+               },
+               {
+               "name": "eos",
+               "fullName": "EOS",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/eos.png"
+               },
+               {
+               "name": "pay",
+               "fullName": "TenXPay",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/TenXPay?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/pay.png"
+               },
+               {
+               "name": "qtum (erc20)",
+               "fullName": "Qtum",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Qtum?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/qtum-old.png"
+               },
+               {
+               "name": "bch",
+               "fullName": "Bitcoin Cash",
+               "enabled": true,
+               "payinConfirmations": 6,
+               "extraIdName": null,
+               "addressUrl": "https://blockchair.com/bitcoin-cash/address/%1$s",
+               "transactionUrl": "https://blockchair.com/bitcoin-cash/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/bch.png"
+               },
+               {
+               "name": "neo",
+               "fullName": "Neo",
+               "enabled": false,
+               "payinConfirmations": 3,
+               "extraIdName": null,
+               "addressUrl": "https://neotracker.io/address/%1$s",
+               "transactionUrl": "https://neotracker.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/neo.png"
+               },
+               {
+               "name": "omg",
+               "fullName": "OmiseGo",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/OmiseGo?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/omg.png"
+               },
+               {
+               "name": "mco",
+               "fullName": "Monaco",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Monaco?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/mco.png"
+               },
+               {
+               "name": "mtl",
+               "fullName": "Metal",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xF433089366899D83a9f26A773D59ec7eCF30355e?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/mtl.png"
+               },
+               {
+               "name": "1st",
+               "fullName": "FirstBlood",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/FirstBlood?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/1st.png"
+               },
+               {
+               "name": "adx",
+               "fullName": "AdEx",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x4470bb87d77b963a013db939be332f927f2b992e?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/adx.png"
+               },
+               {
+               "name": "zrx",
+               "fullName": "0x Protocol Token",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/ZRX?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/zrx.png"
+               },
+               {
+               "name": "qtum",
+               "fullName": "Qtum Ignition",
+               "enabled": true,
+               "payinConfirmations": 5,
+               "extraIdName": null,
+               "addressUrl": "https://qtumexplorer.io/address/%1$s",
+               "transactionUrl": "https://qtumexplorer.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/qtum.png"
+               },
+               {
+               "name": "dct",
+               "fullName": "Decent",
+               "enabled": false,
+               "payinConfirmations": 10,
+               "extraIdName": "Memo",
+               "addressUrl": "https://explorer.decent.ch/account/%1$s",
+               "transactionUrl": "https://explorer.decent.ch/",
+               "image": "https://changelly.com/api/coins/dct.png"
+               },
+               {
+               "name": "ptoy",
+               "fullName": "Patientory",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/ptoy.png"
+               },
+               {
+               "name": "tkn",
+               "fullName": "TokenCard",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/TokenCard?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/tkn.png"
+               },
+               {
+               "name": "storj",
+               "fullName": "Storj",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Storj?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/storj.png"
+               },
+               {
+               "name": "cfi",
+               "fullName": "Cofound.it",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Cofoundit?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/cfi.png"
+               },
+               {
+               "name": "fun",
+               "fullName": "FunFair",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/FunFair?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/fun.png"
+               },
+               {
+               "name": "myst",
+               "fullName": "Mysterium",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xa645264C5603E96c3b0B078cdab68733794B0A71?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/myst.png"
+               },
+               {
+               "name": "hmq",
+               "fullName": "Humaniq",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Humaniq?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/hmq.png"
+               },
+               {
+               "name": "nmr",
+               "fullName": "Numeraire",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/Numeraire?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/nmr.png"
+               },
+               {
+               "name": "salt",
+               "fullName": "Salt",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x4156D3342D5c385a87D264F90653733592000581?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/salt.png"
+               },
+               {
+               "name": "xvg",
+               "fullName": "Verge",
+               "enabled": true,
+               "payinConfirmations": 2,
+               "extraIdName": null,
+               "addressUrl": "https://verge-blockchain.info/address/%1$s",
+               "transactionUrl": "https://verge-blockchain.info/tx/%1$s",
+               "image": "https://changelly.com/api/coins/xvg.png"
+               },
+               {
+               "name": "btg",
+               "fullName": "Bitcoin Gold",
+               "enabled": true,
+               "payinConfirmations": 6,
+               "extraIdName": null,
+               "addressUrl": "https://btgexp.com/address/%1$s",
+               "transactionUrl": "https://btgexp.com/tx/%1$s",
+               "image": "https://changelly.com/api/coins/btg.png"
+               },
+               {
+               "name": "dgb",
+               "fullName": "DigiByte",
+               "enabled": true,
+               "payinConfirmations": 100,
+               "extraIdName": null,
+               "addressUrl": "https://digiexplorer.info/address/%1$s",
+               "transactionUrl": "https://digiexplorer.info/tx/%1$s",
+               "image": "https://changelly.com/api/coins/dgb.png"
+               },
+               {
+               "name": "dnt",
+               "fullName": "district0x",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/district0x?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/dnt.png"
+               },
+               {
+               "name": "vib",
+               "fullName": "Viberate",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x2C974B2d0BA1716E644c1FC59982a89DDD2fF724?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/vib.png"
+               },
+               {
+               "name": "rcn",
+               "fullName": "Ripio Credit Network",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/rcn.png"
+               },
+               {
+               "name": "powr",
+               "fullName": "Power Ledger",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x595832f8fc6bf59c85c527fec3740a1b7a361269?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/powr.png"
+               },
+               {
+               "name": "cl",
+               "fullName": "Coinlancer",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xe81d72d14b1516e68ac3190a46c93302cc8ed60f?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/cl.png"
+               },
+               {
+               "name": "atl",
+               "fullName": "ATLANT",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/atl.png"
+               },
+               {
+               "name": "trx",
+               "fullName": "Tron",
+               "enabled": true,
+               "payinConfirmations": 10,
+               "extraIdName": null,
+               "addressUrl": "https://tronscan.org/#/address/%1$s",
+               "transactionUrl": "https://tronscan.org/#/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/trx.png"
+               },
+               {
+               "name": "ven",
+               "fullName": "VeChain",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xd850942ef8811f2a866692a623011bde52a462c1?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/ven.png"
+               },
+               {
+               "name": "ppt",
+               "fullName": "Populous",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/ppt.png"
+               },
+               {
+               "name": "zcl",
+               "fullName": "Zclassic",
+               "enabled": true,
+               "payinConfirmations": 12,
+               "extraIdName": null,
+               "addressUrl": "http://explorer.zclmine.pro/address/%1$s",
+               "transactionUrl": "http://explorer.zclmine.pro/tx/%1$s",
+               "image": "https://changelly.com/api/coins/zcl.png"
+               },
+               {
+               "name": "stx",
+               "fullName": "Stox",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/stx.png"
+               },
+               {
+               "name": "ctr",
+               "fullName": "Centra",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/centra?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/ctr.png"
+               },
+               {
+               "name": "kmd",
+               "fullName": "Komodo",
+               "enabled": true,
+               "payinConfirmations": 12,
+               "extraIdName": null,
+               "addressUrl": "https://kmd.explorer.supernet.org/address/%1$s",
+               "transactionUrl": "https://kmd.explorer.supernet.org/tx/%1$s",
+               "image": "https://changelly.com/api/coins/kmd.png"
+               },
+               {
+               "name": "wax",
+               "fullName": "WAX token",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x39bb259f66e1c59d5abef88375979b4d20d98022?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/wax.png"
+               },
+               {
+               "name": "brd",
+               "fullName": "Bread",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x558ec3152e2eb2174905cd19aea4e34a23de9ad6?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/brd.png"
+               },
+               {
+               "name": "dcn",
+               "fullName": "Dentacoin",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/dcn.png"
+               },
+               {
+               "name": "snm",
+               "fullName": "SONM",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x983f6d60db79ea8ca4eb9968c6aff8cfa04b3c63?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/snm.png"
+               },
+               {
+               "name": "ngc",
+               "fullName": "NAGA Coin",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x72dd4b6bd852a3aa172be4d6c5a6dbec588cf131?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/ngc.png"
+               },
+               {
+               "name": "xmo",
+               "fullName": "Monero Original",
+               "enabled": true,
+               "payinConfirmations": 10,
+               "extraIdName": "Payment ID",
+               "addressUrl": null,
+               "transactionUrl": "%1$s",
+               "image": "https://changelly.com/api/coins/xmo.png"
+               },
+               {
+               "name": "noah",
+               "fullName": "Noah",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x58a4884182d9E835597f405e5F258290E46ae7C2?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/noah.png"
+               },
+               {
+               "name": "bnb",
+               "fullName": "Binance token",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xB8c77482e45F1F44dE1745F52C74426C631bDD52?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/bnb.png"
+               },
+               {
+               "name": "zen",
+               "fullName": "Zencash",
+               "enabled": true,
+               "payinConfirmations": 100,
+               "extraIdName": null,
+               "addressUrl": null,
+               "transactionUrl": "http://explorer.zenmine.pro/insight/tx/%1$s",
+               "image": "https://changelly.com/api/coins/zen.png"
+               },
+               {
+               "name": "ae",
+               "fullName": "Aeternity",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/ae.png"
+               },
+               {
+               "name": "aion",
+               "fullName": "Aion",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/aion.png"
+               },
+               {
+               "name": "elf",
+               "fullName": "Aelf",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xbf2179859fc6d5bee9bf9158632dc51678a4100e?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/elf.png"
+               },
+               {
+               "name": "iost",
+               "fullName": "IOStoken",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/iost.png"
+               },
+               {
+               "name": "wtc",
+               "fullName": "Waltonchain",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/wtc.png"
+               },
+               {
+               "name": "zil",
+               "fullName": "Zilliqa",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/zil.png"
+               },
+               {
+               "name": "btcp",
+               "fullName": "Bitcoin Private",
+               "enabled": false,
+               "payinConfirmations": 12,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.btcprivate.org/address/%1$s",
+               "transactionUrl": "https://explorer.btcprivate.org/tx/%1$s",
+               "image": "https://changelly.com/api/coins/btcp.png"
+               },
+               {
+               "name": "ark",
+               "fullName": "Ark",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.ark.io/wallets/%1$s",
+               "transactionUrl": "https://explorer.ark.io/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/ark.png"
+               },
+               {
+               "name": "arn",
+               "fullName": "Aeron",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xBA5F11b16B155792Cf3B2E6880E8706859A8AEB6?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/arn.png"
+               },
+               {
+               "name": "part",
+               "fullName": "Particl",
+               "enabled": true,
+               "payinConfirmations": 10,
+               "extraIdName": null,
+               "addressUrl": "https://chainz.cryptoid.info/part/address.dws?%1$s",
+               "transactionUrl": "https://chainz.cryptoid.info/part/tx.dws?%1$s",
+               "image": "https://changelly.com/api/coins/part.png"
+               },
+               {
+               "name": "zap",
+               "fullName": "Zap",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x6781a0f84c7e9e846dcb84a9a5bd49333067b104?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/zap.png"
+               },
+               {
+               "name": "abyss",
+               "fullName": "The Abyss",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x0e8d6b471e332f140e7d9dbb99e5e3822f728da6?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/abyss.png"
+               },
+               {
+               "name": "lrc",
+               "fullName": "Loopring",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xEF68e7C694F40c8202821eDF525dE3782458639f?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/lrc.png"
+               },
+               {
+               "name": "poly",
+               "fullName": "Polymath",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/poly.png"
+               },
+               {
+               "name": "cmt",
+               "fullName": "CyberMiles",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/cmt.png"
+               },
+               {
+               "name": "icx",
+               "fullName": "Icon",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xb5a5f22694352c15b00323844ad545abb2b11028?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/icx.png"
+               },
+               {
+               "name": "xzc",
+               "fullName": "ZCoin",
+               "enabled": true,
+               "payinConfirmations": 10,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.zcoin.io/address/%1$s",
+               "transactionUrl": "https://explorer.zcoin.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/xzc.png"
+               },
+               {
+               "name": "hsr",
+               "fullName": "Hshare",
+               "enabled": true,
+               "payinConfirmations": 5,
+               "extraIdName": null,
+               "addressUrl": "http://explorer.h.cash/address/%1$s",
+               "transactionUrl": "http://explorer.h.cash/tx/%1$s",
+               "image": "https://changelly.com/api/coins/hsr.png"
+               },
+               {
+               "name": "smart",
+               "fullName": "SmartCash",
+               "enabled": true,
+               "payinConfirmations": 5,
+               "extraIdName": null,
+               "addressUrl": "http://explorer3.smartcash.cc/address/%1$s",
+               "transactionUrl": "http://explorer3.smartcash.cc/tx/%1$s",
+               "image": "https://changelly.com/api/coins/smart.png"
+               },
+               {
+               "name": "ethos",
+               "fullName": "ETHOS",
+               "enabled": false,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x5af2be193a6abca9c8817001f45744777db30756?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/bqx.png"
+               },
+               {
+               "name": "nexo",
+               "fullName": "NEXO",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/nexo.png"
+               },
+               {
+               "name": "ont",
+               "fullName": "Ontology",
+               "enabled": false,
+               "payinConfirmations": 40,
+               "extraIdName": null,
+               "addressUrl": "https://explorer.ont.io/address/%1$s/10/1",
+               "transactionUrl": "https://explorer.ont.io/transaction/%1$s",
+               "image": "https://changelly.com/api/coins/ont.png"
+               },
+               {
+               "name": "betr",
+               "fullName": "BetterBetting",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0x763186eb8d4856d536ed4478302971214febc6a9?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/betr.png"
+               },
+               {
+               "name": "enj",
+               "fullName": "Enjin",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/enj.png"
+               },
+               {
+               "name": "skin",
+               "fullName": "SkinCoin",
+               "enabled": true,
+               "payinConfirmations": 15,
+               "extraIdName": null,
+               "addressUrl": "https://etherscan.io/token/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c?a=%1$s",
+               "transactionUrl": "https://etherscan.io/tx/%1$s",
+               "image": "https://changelly.com/api/coins/skin.png"
+               }
+               ]
+}

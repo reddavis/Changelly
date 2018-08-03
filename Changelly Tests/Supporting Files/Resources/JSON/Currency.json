@@ -1,0 +1,10 @@
+{
+"name": "btc",
+"fullName": "Bitcoin",
+"enabled": true,
+"payinConfirmations": 2,
+"extraIdName": null,
+"addressUrl": "https://www.blockchain.com/btc/address/%1$s",
+"transactionUrl": "https://www.blockchain.com/btc/tx/%1$s",
+"image": "https://changelly.com/api/coins/btc.png"
+}

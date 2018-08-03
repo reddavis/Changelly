@@ -1,0 +1,18 @@
+{
+    "jsonrpc": "2.0",
+    "id": "4827AF97-D097-4600-87E9-11657199CE94",
+    "result": {
+        "id": "2c6f46836128",
+        "apiExtraFee": "0.5",
+        "changellyFee": "0.5",
+        "payinExtraId": null,
+        "refundAddress": "qrt4dpvyf20ufx4wzlncj3sq8h927z74augzy7g6hq",
+        "status": "new",
+        "currencyFrom": "bch",
+        "currencyTo": "btc",
+        "amountTo": 0.9877,
+        "payinAddress": "bitcoincash:qpehm8fkv4nyee55fs5av33nntaycw647scwnxulvj",
+        "payoutAddress": "3GeZgEQW9QEC7tfzW3SXKLEfQMk2egWfZB",
+        "createdAt": "2018-08-02T12:40:24.000Z"
+    }
+}
