@@ -35,7 +35,14 @@ public extension ChangellyAPIClient
             return true
         }
         
-        // Internal
+        // MARK: Initialization
+        
+        public init()
+        {
+            
+        }
+        
+        // MARK: Params
         
         internal func buildParams() -> [String : AnyEncodable]
         {
