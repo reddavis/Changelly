@@ -6,20 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		A4E26AAD21143402000E9F7C /* CommonCryptoModuleMap */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = A4E26AAE21143402000E9F7C /* Build configuration list for PBXAggregateTarget "CommonCryptoModuleMap" */;
-			buildPhases = (
-				A4E26AB121143413000E9F7C /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = CommonCryptoModuleMap;
-			productName = CommonCryptoModuleMap;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		A4E26A3021142C4F000E9F7C /* Changelly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E26A2621142C4F000E9F7C /* Changelly.framework */; };
 		A4E26A3721142C4F000E9F7C /* Changelly.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E26A2921142C4F000E9F7C /* Changelly.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,20 +57,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = A4E26A2521142C4F000E9F7C;
 			remoteInfo = "Changelly macOS";
-		};
-		A4E26AB22114343A000E9F7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4E26A1D21142C4F000E9F7C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4E26AAD21143402000E9F7C;
-			remoteInfo = CommonCryptoModuleMap;
-		};
-		A4E26AB421143440000E9F7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4E26A1D21142C4F000E9F7C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4E26AAD21143402000E9F7C;
-			remoteInfo = CommonCryptoModuleMap;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -338,7 +310,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A4E26AB32114343A000E9F7C /* PBXTargetDependency */,
 			);
 			name = "Changelly macOS";
 			productName = "Changelly macOS";
@@ -375,7 +346,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A4E26AB521143440000E9F7C /* PBXTargetDependency */,
 			);
 			name = "Changelly iOS";
 			productName = "Changelly iOS";
@@ -394,18 +364,15 @@
 				TargetAttributes = {
 					A4E26A2521142C4F000E9F7C = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1000;
 					};
 					A4E26A2E21142C4F000E9F7C = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1000;
 					};
 					A4E26A4B21142CF6000E9F7C = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 0940;
-					};
-					A4E26AAD21143402000E9F7C = {
-						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
@@ -424,7 +391,6 @@
 				A4E26A2521142C4F000E9F7C /* Changelly macOS */,
 				A4E26A4B21142CF6000E9F7C /* Changelly iOS */,
 				A4E26A2E21142C4F000E9F7C /* Changelly Tests */,
-				A4E26AAD21143402000E9F7C /* CommonCryptoModuleMap */,
 			);
 		};
 /* End PBXProject section */
@@ -460,22 +426,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		A4E26AB121143413000E9F7C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "# This if-statement means we'll only run the main script if the CommonCryptoModuleMap directory doesn't exist\n# Because otherwise the rest of the script causes a full recompile for anything where CommonCrypto is a dependency\n# Do a \"Clean Build Folder\" to remove this directory and trigger the rest of the script to run\nif [ -d \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\" ]; then\necho \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap directory already exists, so skipping the rest of the script.\"\nexit 0\nfi\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\"\ncat <<EOF > \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap/module.modulemap\"\nmodule CommonCrypto [system] {\n    header \"${SDKROOT}/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nEOF";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4E26A2121142C4F000E9F7C /* Sources */ = {
@@ -537,16 +487,6 @@
 			isa = PBXTargetDependency;
 			target = A4E26A2521142C4F000E9F7C /* Changelly macOS */;
 			targetProxy = A4E26A3121142C4F000E9F7C /* PBXContainerItemProxy */;
-		};
-		A4E26AB32114343A000E9F7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4E26AAD21143402000E9F7C /* CommonCryptoModuleMap */;
-			targetProxy = A4E26AB22114343A000E9F7C /* PBXContainerItemProxy */;
-		};
-		A4E26AB521143440000E9F7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4E26AAD21143402000E9F7C /* CommonCryptoModuleMap */;
-			targetProxy = A4E26AB421143440000E9F7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -696,7 +636,7 @@
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -725,7 +665,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -746,7 +686,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reddavis.Changelly-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -766,7 +706,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reddavis.Changelly-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -830,26 +770,6 @@
 			};
 			name = Release;
 		};
-		A4E26AAF21143402000E9F7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CF43K35J9C;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macOS";
-			};
-			name = Debug;
-		};
-		A4E26AB021143402000E9F7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CF43K35J9C;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macOS";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -885,15 +805,6 @@
 			buildConfigurations = (
 				A4E26A5221142CF6000E9F7C /* Debug */,
 				A4E26A5321142CF6000E9F7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4E26AAE21143402000E9F7C /* Build configuration list for PBXAggregateTarget "CommonCryptoModuleMap" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4E26AAF21143402000E9F7C /* Debug */,
-				A4E26AB021143402000E9F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
